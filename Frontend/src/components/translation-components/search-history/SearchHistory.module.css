@@ -1,0 +1,48 @@
+.searchHistoryContainer {
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  background: var(--background-color);
+  color: white;
+  border: 1px solid --secondary-color;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.searchHistoryContainer h2 {
+  text-align: center;
+  font-size: medium;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.searchHistoryContainerList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+}
+
+.searchHistoryContainer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.searchHistoryContainer li {
+  margin-bottom: 5px;
+  font-size: medium;
+  font-weight: 400;
+  display: block;
+}
+
+/* Optional: Hover effect */
+.searchHistoryContainer li:hover {
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: translateX(10px);
+}

@@ -1,0 +1,26 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  background-color: rgb(184, 216, 236);
+}
+
+.headerContainer {
+  padding: 20px;
+  background-color: rgba(227, 16, 16, 0.8);
+}
+
+.translationContainer {
+  flex-direction: column;
+}
+
+.translateOutputContainer,
+.translateInputContainer {
+  padding: 20px;
+}
+
+.imageSearchContainer {
+  width: 80%;
+  align-self: center;
+  justify-content: center;
+}
