@@ -7,10 +7,10 @@
 }
 
 .logo {
-  height: 135px;
+  height: 50px;
   margin-top: 10px;
   margin-bottom: 5px;
-  margin-left: -19%;
+  margin-left: 0;
   transition: transform 0.3s ease; /* Übergangseffekt für eine sanftere Veränderung */
   cursor: pointer; /* Standardmauszeiger beim Überfahren */
 }

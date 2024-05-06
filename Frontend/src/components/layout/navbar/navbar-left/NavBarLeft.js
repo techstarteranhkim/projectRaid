@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./NavBarLeft.module.css";
-import logo from "./jeddebook_logo.png";
+import logo from "./Logo_noBG.png";
 
 function NavBarLeft() {
   const [isMouseDown, setIsMouseDown] = useState(false);

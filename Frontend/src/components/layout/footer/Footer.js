@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import logo from "./jeddebook_logo.png";
+import logo from "./Logo_noBG.png";
 import styles from "./Footer.module.css";
 
 function Footer() {
@@ -114,7 +114,7 @@ function Footer() {
         </div>
         <div className={styles.spacer}></div>
         <div className={styles.footerBotRight}>
-          Copyright jeddebook ©
+          Copyright Project Raid ©
           <br />
           2024. Alle Rechte vorbehalten.
         </div>
