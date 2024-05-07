@@ -1,7 +1,7 @@
 /* Footer.module.css */
 .mainContainer {
   min-height: 50px;
-  background-color: var(--background-color);
+  background: linear-gradient(90deg, #100b4b, #0b3570);
   color: white;
 }
 

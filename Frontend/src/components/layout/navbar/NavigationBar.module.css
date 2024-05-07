@@ -1,5 +1,5 @@
 .mainContainer {
-  background-color: var(--background-color);
+  background: linear-gradient(90deg, #100b4b, #0b3570);
   display: flex;
   flex-direction: column;
   justify-content: center;
