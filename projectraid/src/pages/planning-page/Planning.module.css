@@ -1,0 +1,597 @@
+.bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #000;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 360px;
+  height: 800px;
+}
+.bg1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    180deg,
+    rgba(41, 62, 142, 0.35),
+    rgba(0, 170, 231, 0.35)
+  );
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 360px;
+  height: 800px;
+}
+.footerChild {
+  position: absolute;
+  height: 53.19%;
+  width: 100%;
+  top: 14.89%;
+  right: 0%;
+  bottom: 31.91%;
+  left: 0%;
+  border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(
+    268.92deg,
+    rgba(41, 62, 142, 0.42),
+    rgba(6, 161, 227, 0.42)
+  );
+}
+.iconEditPencil {
+  position: absolute;
+  height: 34.04%;
+  width: 8.89%;
+  top: 29.79%;
+  right: 77.22%;
+  bottom: 36.17%;
+  left: 13.89%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.25;
+}
+.iconCalendar {
+  width: 30.3px;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.iconBell {
+  width: 28.8px;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.iconSettings {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.iconEditPencilParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  filter: drop-shadow(3px 3px 1.5px rgba(0, 0, 0, 0.25));
+  width: 360px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footer {
+  position: absolute;
+  top: 599px;
+  left: 0px;
+  border-radius: 8px;
+  width: 360px;
+  height: 94px;
+  overflow: hidden;
+}
+.bgChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 300px;
+  height: 491px;
+}
+.logoNobg1Icon {
+  position: absolute;
+  top: 136.1px;
+  left: 0px;
+  border-radius: 10px 10px 0px 0px;
+  width: 300px;
+  height: 308.8px;
+  object-fit: cover;
+  display: none;
+  opacity: 0.2;
+  mix-blend-mode: color-burn;
+}
+.bg2 {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 300px;
+  height: 491px;
+}
+.setTimeButtonChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+}
+.setTime {
+  position: absolute;
+  top: 17.89px;
+  left: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 14.9px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.setTimeButton {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 50px;
+}
+.answer {
+  position: absolute;
+  top: 493px;
+  left: 0px;
+  width: 300px;
+  height: 50px;
+}
+.monday {
+  width: 193px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27.1px;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.bg3 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 5px;
+  right: 0px;
+  left: 0px;
+  border-radius: 100px;
+  background-color: #32a6f9;
+  height: 4px;
+  opacity: 0.2;
+  z-index: 0;
+}
+.knobMaxIcon {
+  position: absolute;
+  top: calc(50% - 6px);
+  right: -6px;
+  width: 12px;
+  height: 12px;
+}
+.knobMinIcon {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: -6px;
+  width: 12px;
+  height: 12px;
+}
+.fill {
+  align-self: stretch;
+  position: relative;
+  border-radius: 100px;
+  background-color: #32a6f9;
+  height: 4px;
+  z-index: 1;
+}
+.div1 {
+  position: absolute;
+  top: calc(50% + 4px);
+  left: calc(50% - 2.5px);
+}
+.div {
+  width: 1px;
+  position: relative;
+  border-radius: 1px;
+  background-color: #fff;
+  height: 4px;
+  opacity: 0.4;
+  text-align: left;
+}
+.div2 {
+  width: 1px;
+  position: relative;
+  border-radius: 1px;
+  background-color: #fff;
+  height: 4px;
+  opacity: 0.4;
+}
+.div4 {
+  position: absolute;
+  top: calc(50% + 4px);
+  left: calc(50% - 3.5px);
+}
+.div10 {
+  position: absolute;
+  top: calc(50% + 4px);
+  left: calc(50% - 4.5px);
+}
+.div16 {
+  position: absolute;
+  top: calc(50% + 4px);
+  left: calc(50% - 5.5px);
+}
+.stepsScaled {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  right: 0px;
+  bottom: 8px;
+  left: 0px;
+  height: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  z-index: 2;
+}
+.slider {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px 60px 24px 100px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 8px;
+  font-size: 8px;
+}
+.tuesday {
+  width: 188px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27.1px;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.slider1 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px 40px 24px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 8px;
+  font-size: 8px;
+}
+.wednesday {
+  width: 192px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27.1px;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.slider2 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px 20px 24px 100px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 8px;
+  font-size: 8px;
+}
+.thursday {
+  width: 190px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27.1px;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.slider3 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px 40px 24px 100px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 8px;
+  font-size: 8px;
+}
+.friday {
+  width: 182px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27.1px;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.slider4 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px 40px 24px 60px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 8px;
+  font-size: 8px;
+}
+.saturday {
+  width: 187px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27.1px;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.slider5 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px 20px 24px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 8px;
+  font-size: 8px;
+}
+.slider6 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px 20px 24px 40px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 8px;
+  font-size: 8px;
+}
+.mondayParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dayAndSliders {
+  position: absolute;
+  top: 0px;
+  left: 47px;
+  width: 200px;
+  height: 420.5px;
+}
+.phplusFillIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phplusFillParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 35.5px;
+  opacity: 0.8;
+}
+.phminusFillParent {
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35.5px;
+  opacity: 0.8;
+}
+.rightControl {
+  position: absolute;
+  top: 24px;
+  left: 249px;
+  width: 46px;
+  height: 381px;
+}
+.phplusFillGroup {
+  position: absolute;
+  top: 0px;
+  left: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 35.5px;
+  opacity: 0.8;
+}
+.phminusFillGroup {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35.5px;
+  opacity: 0.8;
+}
+.leftControl {
+  position: absolute;
+  top: 24px;
+  left: 0px;
+  width: 45px;
+  height: 381px;
+}
+.content1 {
+  position: absolute;
+  top: 47px;
+  left: 3px;
+  width: 295px;
+  height: 420.5px;
+}
+.headerChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+}
+.frameChild {
+  width: 28px;
+  position: relative;
+  height: 11px;
+}
+.div119 {
+  width: 195px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 18px;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.vectorParent {
+  position: absolute;
+  top: 31px;
+  left: 25px;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.setAvailableTime {
+  position: absolute;
+  top: 6px;
+  left: 54px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 195px;
+  height: 15px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.availableTimeWidget {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 543px;
+}
+.content {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  width: 300px;
+  height: 543px;
+}
+.headerItem {
+  position: absolute;
+  height: 65.79%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 34.21%;
+  left: 0%;
+  border-radius: 0px 0px 10px 10px;
+  background: linear-gradient(
+    268.92deg,
+    rgba(6, 161, 227, 0.42),
+    rgba(41, 62, 142, 0.42)
+  );
+}
+.logoNobg2Icon {
+  width: 49.3px;
+  position: relative;
+  height: 50px;
+  object-fit: cover;
+}
+.iconLogIn {
+  width: 24.9px;
+  position: relative;
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.logoNobg2Parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.header1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 76px;
+}
+.planning {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 664px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  font-family: Inter;
+}

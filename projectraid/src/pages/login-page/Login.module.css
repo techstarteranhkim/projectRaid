@@ -1,0 +1,391 @@
+.bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #000;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 360px;
+  height: 800px;
+}
+.bg1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    180deg,
+    rgba(41, 62, 142, 0.35),
+    rgba(0, 170, 231, 0.35)
+  );
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 360px;
+  height: 800px;
+}
+.footerChild {
+  position: absolute;
+  height: 53.19%;
+  width: 100%;
+  top: 14.89%;
+  right: 0%;
+  bottom: 31.91%;
+  left: 0%;
+  border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(
+    268.92deg,
+    rgba(41, 62, 142, 0.42),
+    rgba(6, 161, 227, 0.42)
+  );
+}
+.iconEditPencil {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.iconCalendar {
+  width: 30.3px;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.iconBell {
+  width: 28.8px;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.iconEditPencilParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  filter: drop-shadow(3px 3px 1.5px rgba(0, 0, 0, 0.25));
+  width: 360px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footer {
+  position: absolute;
+  top: 599px;
+  left: 0px;
+  border-radius: 8px;
+  width: 360px;
+  height: 94px;
+  overflow: hidden;
+}
+.bgChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 300px;
+  height: 472.6px;
+}
+.logoNobg1Icon {
+  position: absolute;
+  top: 123.51px;
+  left: 0px;
+  border-radius: 10px;
+  width: 300px;
+  height: 279.9px;
+  object-fit: cover;
+  opacity: 0.2;
+  mix-blend-mode: color-burn;
+}
+.bg2 {
+  position: absolute;
+  top: 1.71px;
+  left: 0px;
+  width: 300px;
+  height: 472.6px;
+}
+.answerChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 0px 0px 0px 10px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 150px;
+  height: 63.6px;
+  cursor: pointer;
+}
+.answerItem {
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  border-radius: 0px 0px 10px 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 150px;
+  height: 63.6px;
+  cursor: pointer;
+}
+.login1 {
+  position: absolute;
+  top: 22.77px;
+  left: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 19px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.register {
+  position: absolute;
+  top: 22.9px;
+  left: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 19.1px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.answer {
+  position: absolute;
+  top: 473.38px;
+  left: 0px;
+  width: 300px;
+  height: 63.6px;
+}
+.emailAndPwChild {
+  position: absolute;
+  top: 37.95px;
+  left: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  background-color: #d9d9d9;
+  width: 250px;
+  height: 37.9px;
+}
+.email {
+  position: absolute;
+  top: 0px;
+  left: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 51px;
+  height: 22.8px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.emailAndPwItem {
+  position: absolute;
+  top: 137.56px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  background-color: #d9d9d9;
+  width: 250px;
+  height: 37.9px;
+}
+.basileyeClosedSolidIcon {
+  position: absolute;
+  top: 144.29px;
+  left: 208px;
+  width: 25.3px;
+  height: 24px;
+  overflow: hidden;
+}
+.password {
+  position: absolute;
+  top: 103.4px;
+  left: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 93px;
+  height: 22.8px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.forgotPassword {
+  position: absolute;
+  top: 184.99px;
+  left: 82px;
+  font-size: 12px;
+  color: #4e9fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 102px;
+  height: 14.2px;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.83), 0 1px 0 rgba(0, 0, 0, 0.83),
+    -1px 0 0 rgba(0, 0, 0, 0.83), 0 -1px 0 rgba(0, 0, 0, 0.83);
+}
+.emailAndPw {
+  position: absolute;
+  top: 134.71px;
+  left: 19px;
+  width: 256px;
+  height: 199.2px;
+  font-size: 20px;
+}
+.headerChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 300px;
+  height: 71.1px;
+}
+.login2 {
+  position: absolute;
+  top: 20.87px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 28.5px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 71.1px;
+  font-size: 24px;
+}
+.loginThrough {
+  position: absolute;
+  height: 2.35%;
+  width: 28.67%;
+  top: 70.76%;
+  left: 35.67%;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.iconGoogleCircled {
+  width: 32px;
+  position: relative;
+  height: 32px;
+}
+.iconDiscord {
+  width: 36.1px;
+  position: relative;
+  height: 27.9px;
+}
+.icons {
+  position: absolute;
+  top: calc(50% - 5.7px);
+  left: calc(50% - 99.05px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  opacity: 0.8;
+}
+.externalLogin {
+  position: absolute;
+  top: 386.1px;
+  left: 42px;
+  width: 220px;
+  height: 67.4px;
+}
+.loginContent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 537px;
+}
+.content {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  width: 300px;
+  height: 537px;
+}
+.headerItem {
+  position: absolute;
+  height: 65.79%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 34.21%;
+  left: 0%;
+  border-radius: 0px 0px 10px 10px;
+  background: linear-gradient(
+    268.92deg,
+    rgba(6, 161, 227, 0.42),
+    rgba(41, 62, 142, 0.42)
+  );
+}
+.iconLogIn {
+  position: absolute;
+  height: 42.11%;
+  width: 6.92%;
+  top: 14.47%;
+  right: 18.33%;
+  bottom: 43.42%;
+  left: 74.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.logoNobg2Icon {
+  width: 49.3px;
+  position: relative;
+  height: 50px;
+  object-fit: cover;
+}
+.iconLogIn1 {
+  width: 24.9px;
+  position: relative;
+  height: 32px;
+  object-fit: contain;
+}
+.logoNobg2Parent {
+  position: absolute;
+  top: -0.01px;
+  left: 0px;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.header1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 76px;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 664px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  font-family: Inter;
+}

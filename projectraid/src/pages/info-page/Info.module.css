@@ -1,0 +1,544 @@
+.bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #000;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 360px;
+  height: 800px;
+}
+.bg1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    180deg,
+    rgba(41, 62, 142, 0.35),
+    rgba(0, 170, 231, 0.35)
+  );
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 360px;
+  height: 800px;
+}
+.footerChild {
+  position: absolute;
+  height: 53.19%;
+  width: 100%;
+  top: 14.89%;
+  right: 0%;
+  bottom: 31.91%;
+  left: 0%;
+  border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(
+    268.92deg,
+    rgba(41, 62, 142, 0.42),
+    rgba(6, 161, 227, 0.42)
+  );
+}
+.iconBell {
+  position: absolute;
+  height: 34.04%;
+  width: 8%;
+  top: 22.34%;
+  right: 34.5%;
+  bottom: 43.62%;
+  left: 57.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.25;
+}
+.iconEditPencil {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.iconCalendar {
+  width: 30.3px;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.iconBell1 {
+  width: 28.8px;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.iconEditPencilParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  filter: drop-shadow(3px 3px 1.5px rgba(0, 0, 0, 0.25));
+  width: 360px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footer {
+  position: absolute;
+  top: 599px;
+  left: 0px;
+  border-radius: 8px;
+  width: 360px;
+  height: 94px;
+  overflow: hidden;
+}
+.backgroundChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 300px;
+  height: 258.9px;
+}
+.logoNobg1Icon {
+  position: absolute;
+  top: 66.94px;
+  left: 51px;
+  width: 198px;
+  height: 200px;
+  object-fit: cover;
+  display: none;
+  opacity: 0.2;
+  mix-blend-mode: color-burn;
+}
+.background {
+  position: absolute;
+  top: 67.06px;
+  left: 0px;
+  width: 300px;
+  height: 258.9px;
+}
+.gameInfoChild {
+  position: absolute;
+  top: 1.06px;
+  left: 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 150px;
+  height: 67.1px;
+}
+.game {
+  margin: 0;
+}
+.gameFinalFantasyXivContainer1 {
+  width: 100%;
+}
+.gameFinalFantasyXivContainer {
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  display: flex;
+  align-items: center;
+  width: 128px;
+  height: 67px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.image1Icon {
+  position: absolute;
+  top: 19.84px;
+  left: 15px;
+  width: 25px;
+  height: 33.5px;
+  object-fit: cover;
+}
+.gameInfo {
+  position: absolute;
+  top: 66px;
+  left: 150px;
+  width: 150px;
+  height: 68.1px;
+  font-size: 10px;
+}
+.timeInfoChild {
+  position: absolute;
+  top: 2.68px;
+  left: 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 150px;
+  height: 67.1px;
+}
+.timeMonday19002100Container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 67.1px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.timeInfo {
+  position: absolute;
+  top: 64.38px;
+  left: 0px;
+  width: 150px;
+  height: 69.7px;
+  font-size: 11px;
+}
+.user1Child {
+  position: absolute;
+  top: 0px;
+  left: 13px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  background-color: #0ad467;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+}
+.cat {
+  position: absolute;
+  top: 27px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 15px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.image8Icon {
+  position: absolute;
+  top: 2px;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.user1 {
+  position: absolute;
+  top: 77px;
+  left: 0px;
+  width: 50px;
+  height: 42px;
+}
+.user3Child {
+  position: absolute;
+  top: 0px;
+  left: 13px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+}
+.user3 {
+  position: absolute;
+  top: 77px;
+  left: 75px;
+  width: 50px;
+  height: 42px;
+}
+.user5Child {
+  position: absolute;
+  top: 0px;
+  left: 13px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  background-color: #c80000;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+}
+.image6Icon {
+  position: absolute;
+  top: 2px;
+  left: 16px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.user5 {
+  position: absolute;
+  top: 77px;
+  left: 155px;
+  width: 50px;
+  height: 42px;
+}
+.image5Icon {
+  position: absolute;
+  top: 3px;
+  left: 16px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.user7 {
+  position: absolute;
+  top: 76px;
+  left: 230px;
+  width: 50px;
+  height: 42px;
+}
+.you {
+  position: absolute;
+  top: 28px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 15px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.image9Icon {
+  position: absolute;
+  top: 2px;
+  left: 17px;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.user2 {
+  position: absolute;
+  top: 31px;
+  left: 0px;
+  width: 50px;
+  height: 43px;
+}
+.user4 {
+  position: absolute;
+  top: 31px;
+  left: 75px;
+  width: 50px;
+  height: 43px;
+}
+.user6 {
+  position: absolute;
+  top: 31px;
+  left: 155px;
+  width: 50px;
+  height: 43px;
+}
+.user8 {
+  position: absolute;
+  top: 30px;
+  left: 230px;
+  width: 50px;
+  height: 43px;
+}
+.raidMember {
+  position: absolute;
+  top: 0px;
+  left: 65px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 20px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.users {
+  position: absolute;
+  top: 170px;
+  left: 8px;
+  width: 280px;
+  height: 119px;
+}
+.notChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 0px 0px 10px 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 150px;
+  height: 67.1px;
+}
+.mdicancelOutlineIcon {
+  position: absolute;
+  top: 8.06px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.iWillSkip {
+  position: absolute;
+  top: 24.14px;
+  left: 49px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 20.1px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.not {
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  width: 150px;
+  height: 67.1px;
+}
+.yesChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 0px 0px 0px 10px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 150px;
+  height: 67.1px;
+}
+.iWillParticipate {
+  position: absolute;
+  top: 24.14px;
+  left: 30px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 20.1px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.yes {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 67.1px;
+}
+.answer {
+  position: absolute;
+  top: 325.94px;
+  left: 0px;
+  width: 300px;
+  height: 67.1px;
+  cursor: pointer;
+}
+.headerChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #3c4c6c;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 300px;
+  height: 67.1px;
+}
+.fromOwl {
+  position: absolute;
+  top: 38.9px;
+  left: 131px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 13.4px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.pendingSuggestion {
+  position: absolute;
+  top: 16.1px;
+  left: 91px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 114px;
+  height: 20.1px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 67.1px;
+  font-size: 8px;
+}
+.suggestionWidget {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 393px;
+}
+.content {
+  position: absolute;
+  top: 136px;
+  left: 30px;
+  width: 300px;
+  height: 393px;
+}
+.headerItem {
+  position: absolute;
+  height: 65.79%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 34.21%;
+  left: 0%;
+  border-radius: 0px 0px 10px 10px;
+  background: linear-gradient(
+    268.92deg,
+    rgba(6, 161, 227, 0.42),
+    rgba(41, 62, 142, 0.42)
+  );
+}
+.logoNobg2Icon {
+  width: 49.3px;
+  position: relative;
+  height: 50px;
+  object-fit: cover;
+}
+.iconLogIn {
+  width: 24.9px;
+  position: relative;
+  height: 32px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.logoNobg2Parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.header1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 76px;
+}
+.info {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 664px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  font-family: Inter;
+}
