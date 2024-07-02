@@ -22,31 +22,31 @@ const Planning = () => {
         <img
           className={styles.iconEditPencil}
           alt=""
-          src={`${process.env.PUBLIC_URL}/icon_edit_pencil.svg`} // Use correct path for image
+          src={`${process.env.PUBLIC_URL}/icon_edit_pencil.svg`}
         />
         <div className={styles.iconEditPencilParent}>
           <img
             className={styles.iconSettings}
             alt=""
-            src={`${process.env.PUBLIC_URL}/icon_edit_pencil.svg`} // Use correct path for image
+            src={`${process.env.PUBLIC_URL}/icon_edit_pencil.svg`}
             onClick={onIconEditPencilClick}
           />
           <img
             className={styles.iconCalendar}
             alt=""
-            src={`${process.env.PUBLIC_URL}/icon_calendar.svg`} // Use correct path for image
+            src={`${process.env.PUBLIC_URL}/icon_calendar.svg`}
             onClick={onIconCalendarClick}
           />
           <img
             className={styles.iconBell}
             alt=""
-            src={`${process.env.PUBLIC_URL}/icon_bell.svg`} // Use correct path for image
+            src={`${process.env.PUBLIC_URL}/icon_bell.svg`}
             onClick={onIconCalendarClick}
           />
           <img
             className={styles.iconSettings}
             alt=""
-            src={`${process.env.PUBLIC_URL}/icon_settings.svg`} // Use correct path for image
+            src={`${process.env.PUBLIC_URL}/icon_settings.svg`}
             onClick={onIconCalendarClick}
           />
         </div>
@@ -58,7 +58,7 @@ const Planning = () => {
             <img
               className={styles.logoNobg1Icon}
               alt=""
-              src={`${process.env.PUBLIC_URL}/Logo_noBG_1.png`} // Use correct path for image
+              src={`${process.env.PUBLIC_URL}/Logo_noBG_1.png`}
             />
           </div>
           <div className={styles.answer}>
@@ -77,12 +77,12 @@ const Planning = () => {
                     <img
                       className={styles.knobMaxIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`}
                     />
                     <img
                       className={styles.knobMinIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`}
                     />
                   </div>
                   <div className={styles.stepsScaled}>
@@ -118,12 +118,12 @@ const Planning = () => {
                     <img
                       className={styles.knobMaxIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`}
                     />
                     <img
                       className={styles.knobMinIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`}
                     />
                   </div>
                   <div className={styles.stepsScaled}>
@@ -159,12 +159,12 @@ const Planning = () => {
                     <img
                       className={styles.knobMaxIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`}
                     />
                     <img
                       className={styles.knobMinIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`}
                     />
                   </div>
                   <div className={styles.stepsScaled}>
@@ -200,12 +200,12 @@ const Planning = () => {
                     <img
                       className={styles.knobMaxIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`}
                     />
                     <img
                       className={styles.knobMinIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`}
                     />
                   </div>
                   <div className={styles.stepsScaled}>
@@ -241,12 +241,12 @@ const Planning = () => {
                     <img
                       className={styles.knobMaxIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`}
                     />
                     <img
                       className={styles.knobMinIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`}
                     />
                   </div>
                   <div className={styles.stepsScaled}>
@@ -282,12 +282,12 @@ const Planning = () => {
                     <img
                       className={styles.knobMaxIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`}
                     />
                     <img
                       className={styles.knobMinIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`}
                     />
                   </div>
                   <div className={styles.stepsScaled}>
@@ -323,12 +323,12 @@ const Planning = () => {
                     <img
                       className={styles.knobMaxIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_max.svg`}
                     />
                     <img
                       className={styles.knobMinIcon}
                       alt=""
-                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`} // Use correct path for image
+                      src={`${process.env.PUBLIC_URL}/Knob_min.svg`}
                     />
                   </div>
                   <div className={styles.stepsScaled}>
@@ -364,74 +364,74 @@ const Planning = () => {
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
               </div>
               <div className={styles.phminusFillParent}>
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
               </div>
             </div>
@@ -440,74 +440,74 @@ const Planning = () => {
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_plus_fill.svg`}
                 />
               </div>
               <div className={styles.phminusFillGroup}>
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
                 <img
                   className={styles.phplusFillIcon}
                   alt=""
-                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`} // Use correct path for image
+                  src={`${process.env.PUBLIC_URL}/ph_minus_fill.svg`}
                 />
               </div>
             </div>
