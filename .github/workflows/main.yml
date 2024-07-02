@@ -15,6 +15,7 @@ jobs:
     - name: Hello from lint & from branch
       run: |
         echo "Hello from lint & from ${GITHUB_REF##*/}"
+        npm run lint
 
   test:
     runs-on: ubuntu-latest
